@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta chraset="utf-8">
+    <title>Technical Documentation Page</title>
+  </head
+    <body>
+     <nav id="navbar">
+          <header class="header">CSS Documentation</header>
+          <a class="nav-link" href="#CSS">CSS</a>
+          <a class="nav-link" href="#Anatomy_of_a_CSS_ruleset">Anatomy of a CSS ruleset</a>
+          <a class="nav-link" href="#Selecting_multiple_elements">Selecting multiple elements</a>
+          <a class="nav-link" href="#CSS_Box_Model">CSS Box model</a>
+          <a class="nav-link" href="#CSS_Media_queries">CSS Media queries</a>
+        </nav>
+  
+    <main id="main-doc">
+      <section class="main-section" id="CSS">
+        <header>CSS</header>
+        <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+        <p>Like HTML, CSS is not a programming language. It's not a markup language either. CSS is a style sheet language. CSS is what you use to selectively style HTML elements. For example, this CSS selects paragraph text, setting the color to red:</p>
+        <code>p { <br>
+  color: red; <br>
+}
+        </code>
+        
+      </section>
+        <section class="main-section" id="Anatomy_of_a_CSS_ruleset"><header>Anatomy of a CSS ruleset</header>
+          <p>The whole structure is called a ruleset. (The term ruleset is often referred to as just rule.) Note the names of the individual parts:</p>
+        
+        <ul>
+          <li><dfn>Selector:<dfn>&nbspThis is the HTML element name at the start of the ruleset. It defines the element(s) to be styled (in this example, &lt;p&gt; elements). To style a different element, change the selector.</li>
+            <li><dfn>Declaration:</dfn>
+This is a single rule like color: red;. It specifies which of the element's properties you want to style.</li>
+            <li><dfn>Properties:</dfn>
+These are ways in which you can style an HTML element. (In this example, color is a property of the  &lt;p&gt; elements.) In CSS, you choose which properties you want to affect in the rule.</li>
+            <li><dfn>Property value:</dfn>
+To the right of the property—after the colon—there is the property value. This chooses one out of many possible appearances for a given property. (For example, there are many color values in addition to red.)</li>
+            
+        </ul>
+        <p>
+          Note the other important parts of the syntax:
+        </p>
+            <ul>
+              <li>Apart from the selector, each ruleset must be wrapped in curly braces. ({})</li>
+              <li>Within each declaration, you must use a colon (:) to separate the property from its value or values.</li>
+              <li>Within each ruleset, you must use a semicolon (;) to separate each declaration from the next one.</li>
+            </ul>
+            <p>To modify multiple property values in one ruleset, write them separated by semicolons, like this:</p>
+            <code>p { <br>
+  color: red; <br>
+  width: 500px; <br>
+  border: 1px solid black; <br>
+}</code>
+     
+          </section>
+        <section class="main-section" id="Selecting_multiple_elements">
+          <header>Selecting multiple elements</header>
+          <p>You can also select multiple elements and apply a single ruleset to all of them. Separate multiple selectors by commas. For example:</p>
+          <code>p, li, h1 { <br>
+  color: red; <br>
+}</code>
+        <p>There are other types of selectors such as:</p>
+          <ul>
+            <li>Element selector (sometimes called a tag or type selector)</li>
+            <li>ID selector</li>
+            <li>Class selector</li>
+            <li>Attribute selector</li>
+            <li>Pseudo-class selector etc...</li>
+          </ul>
+     
+        </section>
+        <section class="main-section" id="CSS_Box_Model"><header>CSS Box model</header>
+          <p>Something you'll notice about writing CSS: a lot of it is about boxes. This includes setting size, color, and position. Most HTML elements on your page can be thought of as boxes sitting on top of other boxes.</p>
+        <p>CSS layout is mostly based on the box model. Each box taking up space on your page has properties like:</p>
+          <ul>
+            <li><dfn>Padding:</dfn> The space around the content. In the example below, it is the space around the paragraph text.</li>
+            <li><dfn>Border:</dfn> The solid line that is just outside the padding.</li>
+            <li><dfn>Margin:</dfn> The space around the outside of the border.</li>
+          </ul>
+          <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/box-model.png" alt="Box Model">
+          <p>In this section we also use:</p>
+          <ul>
+            <li>width (of an element).</li>
+            <li>background-color, the color behind an element's content and padding.</li>
+            <li>color, the color of an element's content (usually text).</li>
+            <li>text-shadow sets a drop shadow on the text inside an element.</li>
+            <li>isplay sets the display mode of an element. (keep reading to learn more)</li>
+          </ul>
+          <code>
+            .div { <br>
+            width: 50px;<br>
+            height: 50px; <br>
+            }
+          </code>
+      
+        </section>
+        <section class="main-section" id="CSS_Media_queries">
+      <header>CSS Media queries</header>
+        <p>Media queries let you adapt your site or app depending on the presence or value of various device characteristics and parameters.</p>
+        <p>They are a key component of responsive design. For example, a media query can shrink the font size on small devices, increase the padding between paragraphs when a page is viewed in portrait mode, or bump up the size of buttons on touchscreens.</p>
+          <p>In CSS, use the:</p>
+          <ul>
+            <li>@media at-rule to conditionally apply part of a style sheet based on the result of a media query.</li>
+            <code>
+               @media (condition){ <br>
+              
+              }
+            </code>
+            <li>@import to conditionally apply an entire style sheet.</li>
+            <code>
+              @import url;
+            </code>
+          </ul>
+          
+        </section>
+          <p id="reference">Reference:
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            target="_blank"
+             >MDN</a></p>
+        
+    </main>
+         
+    </body
+</html>

@@ -1,0 +1,110 @@
+body {
+  background-color: grey;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+header {
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 150px;
+  padding: 20px;
+  margin-bottom: 110px;
+  width: 100%
+} 
+
+li {
+  padding: 4px;
+}
+code {
+  display: block;
+  text-align: left;
+  padding: 10px 50px;
+}
+
+img {
+  display: block;
+  text-align: left;
+  padding: 10px 20px;
+  max-width: 100%;
+}
+
+#navbar {
+  background-color: #333;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 160px;
+  
+}
+
+
+#navbar a {
+  color: grey;
+  font-weight: thick;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 17px 16px;
+  text-align: left;
+  float: left;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+ 
+}
+
+#reference {
+  padding-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  
+  #navbar {
+    width: 30%;
+    display: block;
+    position: fixed;
+  }
+    
+  #navbar a {
+    display: block;
+    width: 100px;
+  }
+  
+  #navbar .header {
+font-size: 15px;
+    padding-left: 2px;
+    text-align; right;
+}
+  
+  #main-doc {
+    width: 70%;
+    position: absolute;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 30px;
+    padding-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-left: 75px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    
+    
+  }
+  
+#reference {
+  padding-top: 10px;
+}
+}
