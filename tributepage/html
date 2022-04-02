@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Dr. Abdul Rahman Al-Sumait</h1>
+      <p>The man who was a million men</P>
+    <figure id="img-div">
+      <img id="image" src="https://direct-aid.org/cms/wp-content/uploads/2013/08/slide16-1.jpg"  alt="Dr. Abdul Rahman Al-Sumait holding a malnourished child">
+    
+      <figcaption id="img-caption">Dr. Abdul Rahman Al-Sumait observing a malnourished child</figcaption>
+ 
+      </figure>
+     <p id="tribute-info"><strong>Timeline of a life well lived</strong></p>
+      <ul>
+        <li><strong>1947</strong> - Born in Kuwait</li>
+          <li><strong>1972</strong> - He graduated from the University of Baghdad with a degree in Medicine and Surgery</li>
+          <li><strong>1974</strong> - He completed his postgraduate from McGill University in Canada, specializing in internal medicine and digestive systems and also worked as a practitioner at Montreal Public Hospital (1974-1978)</li>
+          <li><strong>1978</strong> - Began his research in Liver Cancer, London University – Kings College Hospital as well as worked as a specialized physcian </li>
+          <li><strong>1983</strong> - He dedicated himself to work in Direct Aid ( Africa Muslims Committee previously ) as a general secretary, then chairman until 2008. </li>
+         <li><strong>Awards:</strong></li>
+        <ul>
+          <li><strong>1986</strong> - Award of chairmen of the Gulf Cooperation Council held in Muscat</li>
+          <li><strong>1996</strong> -King Faisal Award for serving Islam and Muslims 1996 </li>
+          <li><strong>1999</strong> - Award of the two rivers of the first class provided by the Republic of Sudan</li>
+        <li><strong>2001</strong> - Prize of Sheikh Rashed Al Noaemi, the governor of Ajman Emirate 2001</li>
+          <li><strong>2003</strong> - Honorary PhD in the field of Islamic Call from Om Dorman Islamic University in March</li>
+          <li><strong>2004</strong> - Fars  Award from the president of the Republic of Benin 2004</li>
+          <li><strong>2006</strong> - Prize of Sheikh Hamdan Ben Rashed Al Maktoom for Medical and Human Sciences- Dubai- Emirates  December 2006</li>
+          <li><strong>2009</strong> - Al Sharekah Prize for Human and Voluntarily Work 2009</li>
+          <li><strong>2010:</strong> 
+            <ul> 
+              <li>Fars Award for Charity Work  from Al Sharekah Emirate</li>
+    
+            <li>Honorary Certificate from Voluntarily Organizations Council from Arab Republic of Egypt – Cairo</li>
+            
+    <li>Charity Work Prize from Al Sheikh Mohamed Ben Rashed Al Maktoom, governor of Dubai. – for Human and Charity Work</li>
+        </ul>
+        </ul>
+          <li><strong>2013</strong> - It was announced that Al-Sumait died from complications of a heart condition.</li>
+        
+        </ul>
+    <blockquote><p>"when your aspirations are very high, your body will tire in its pursuit"<p><cite>--Dr. Abdul Rahman Al-Sumait</cite> </blockquote>
+     <h3 
+         id="link">Read more about this inspiration on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Abdul_Rahman_Al-Sumait" target="_blank">Wikipedia entry</a>.
+    </h3>
+    </main>
+  </body>
+  <html>
