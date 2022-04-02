@@ -1,0 +1,220 @@
+body {
+  
+  font-size: 18px;
+  box-sizing: border-box;
+  background-image: url("https://d3jh33bzyw1wep.cloudfront.net/s3/W1siZiIsIjIwMTcvMTIvMDUvMTAvMDkvMTMvNTYvQnVpbGRpbmcgU2VydmljZXMuanBlZyJdLFsicCIsInRodW1iIiwiNTAweDQwMFx1MDAzYyJdXQ")
+}
+  /*#nav-bar ul {
+ background-color: darkblue;
+ list-style-type: none;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+    border-radius: 5px;
+}
+
+#nav-bar ul li {
+  display: inline;
+}
+
+#nav-bar ul li a {
+  text-decoration: none;
+  font-family: arial;
+  padding: .2em 1em;
+  color: yellow;
+  
+}
+
+#nav-bar ul li a:hover {
+  color: skyblue;
+  background-color: #ffffcc;
+}
+*/
+#nav-bar {
+ margin-right: 20px;
+position: sticky:
+  top: 0;
+}
+
+#header, #nav-bar {
+   list-style-type: none;
+  text-align: right;
+  padding: 5px;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+ 
+}
+
+#nav-bar ul li {
+  display: inline;
+  
+}
+
+#nav-bar ul li a {
+  text-decoration: none;
+  font-family: arial;
+  padding: .2em 1em;
+  color: #0000ff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#nav-bar ul li a:hover {
+  
+  background-color: grey;
+}
+
+#header, #header-img {
+  max-height: 100%;
+  max-width: 100%; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 70%;
+}
+
+/********FIRST SECTION*************/
+
+.about {
+  color: black;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10%;
+   margin-top: 100px;
+   margin-bottom: 40px;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.flex > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  border: 3px maroon solid;
+  object-fit: contain;
+  width: 25%;
+  height: 25%
+}
+
+#flexbox img { 
+  max-width: 100%;
+}
+  
+figcaption {
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+  /********FORM SECTION*************/
+  
+ #div, #form {
+   color: black;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 60%;
+  font-size: 20px;
+  font-weight: bold;
+  }  
+
+#submit {
+  color: black;
+  background-color: #e6e600;
+  border-radius: 20px;
+}
+
+ #email {
+  height: 20px;
+  width: 200px;
+   border-radius: 5px;
+}
+
+#labelform {
+  padding-bottom: 0;
+  font-size: 23px;
+  color: maroon;
+  font-style: italic;
+}
+
+
+
+
+     /**********VIDEO*********/
+    
+    #video {
+  display: block;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+  
+
+/*@media screen and (max-width:600) {
+  p, #about {
+  color: black;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 40px;
+ 
+  font-size: 20px;
+  font-weight: bold;
+}
+  #header, #nav-bar {
+  list-style-type: none;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+ 
+}
+  #nav-bar ul li a {
+  text-decoration: none;
+  font-family: arial;
+  padding: 2px 1px;
+  color: blue;
+}
+}
+  */
+  
+  @media only screen and (max-width: 600px) {
+    .about {
+      font-size: 20px;
+  }
+  
+  #header, #nav-bar {
+  text-align: center;
+  padding-left: 30px;
+  margin: 5px;
+ 
+}
+  #nav-bar ul li a {
+  padding: 7px;
+}
+    
+#video {
+  height: 250px;
+  width: 70%;
+}
+  
+}
+      

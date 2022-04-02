@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title> Landing Page </title
+  </head>
+  <body>
+    
+      
+        
+    <header id="header">
+     
+      <img id="header-img" src="https://scontent.fabv2-2.fna.fbcdn.net/v/t39.30808-6/272243969_6965460330195671_6417682721472369118_n.png?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFpHX0xWO75g2OyDvWmoqpRAtgHOEA1QJ8C2Ac4QDVAn7AbkLAjGLEgcJU24yo5RJIFTp8OHHQcueYgZZo7i7Wg&_nc_ohc=wgRWWnu8WX4AX_Imqsv&_nc_zt=23&_nc_ht=scontent.fabv2-2.fna&oh=00_AT-KwrL5Kp2G-RIoOlZDSvKn5VE3YBHhl_KD7gJQiXRekw&oe=61ED19CF" width="100px" height="100px"> 
+     
+        
+      <nav id="nav-bar">
+        <ul>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#more">More</a></li>
+        </ul>
+      </nav>
+    </header>
+ 
+    <section id="about">
+    <div class="about">
+      <p> We carry out design, supply, installation and maintenance of electrical, mechanical and plumbling services in residential, commerical and industrial buildings</p>
+      </div>
+    </section>
+      
+       <div>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <p id="labelform"> Let us give you top quality today...</p>
+        <br><input type="email" id="email"  name="email" placeholder="Enter your email address">
+        <input type="submit" id="submit" name:"submit" value="Contact us">
+      </form>
+            </div>
+      
+    
+    <section id="services">
+      <div class="flex">
+        <div id="flexbox"><img src="http://www.rrenggservices.com/images/mepdesign.jpg">
+          <figcaption>Engineering Drafting and Design</figcaption>
+        </div>
+        <div id="flexbox"><img src="https://iea.imgix.net/9b69c4b4-e46f-43a6-9035-a8cf1143f56d/GettyImages-1169892501.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C3936%2C2624&w=1280&h=853&fit=crop&fm=jpg&q=70&auto=format"><figcaption>Renewable Energy Systems</figcaption></div>
+        <div id="flexbox"><img src="http://alumintech.com/wp-content/uploads/2020/01/building-management.jpg"><figcaption>Building Management Systems</figcaption>
+        </div>
+        </div>
+        </section>
+      
+         <section id="more">
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/oWkhy6AMah0" frameborder="0"
+        allowfullscreen>
+         </iframe>
+    </section>
+  </body>
+</html>
